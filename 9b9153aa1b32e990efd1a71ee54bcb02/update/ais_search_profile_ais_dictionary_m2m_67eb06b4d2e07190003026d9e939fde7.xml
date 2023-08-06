@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="Contract Management search profile">e7eb06b418e071909442b0aa47b03ffa</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-06 22:54:44</sys_created_on>
+        <sys_id>67eb06b4d2e07190003026d9e939fde7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_stop_word_dictionary.Contract Management search profile</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_67eb06b4d2e07190003026d9e939fde7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 22:54:44</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financial" section_id="eb0cc2f41be0719093235205604bcba5" sys_domain="global" table="ast_contract" version="3" view="Workspace-Contract-Management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_payment_terms</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_schedule</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_amount</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>applicable_taxes</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_rate</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_cost</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_cost</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lease_term_months</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchase_order</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchase_order.vendor</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_account</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ratecard</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">eb0cc2f41be0719093235205604bcba5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>ast_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb0cc2f41be0719093235205604bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ast_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+            <sys_update_name>sys_ui_section_eb0cc2f41be0719093235205604bcba5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Contract Management 0" name="Workspace-Contract-Management-0">e3eb06b498e07190d8a263de840b16ed</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

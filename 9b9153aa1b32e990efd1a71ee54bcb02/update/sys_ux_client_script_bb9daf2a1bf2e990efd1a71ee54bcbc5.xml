@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Palles side">6b9daf2a1bf2e990efd1a71ee54bcbb0</macroponent>
+        <name>Load Viewport Routes</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    api.emit('MACROPONENT_VIEWPORT_LOAD_REQUESTED', {
+        viewportElementId: 'viewport_hcx',
+        route: 'sow-overview-tier2',
+        fields: null,
+        params: null
+    });
+    api.emit('MACROPONENT_VIEWPORT_LOAD_REQUESTED', {
+        viewportElementId: 'viewport_jlu',
+        route: 'announcement',
+        fields: null,
+        params: null
+    });
+    api.emit('MACROPONENT_VIEWPORT_LOAD_REQUESTED', {
+        viewportElementId: 'viewport_zph',
+        route: 'upcoming-task',
+        fields: null,
+        params: null
+    });
+    api.emit('MACROPONENT_VIEWPORT_LOAD_REQUESTED', {
+        viewportElementId: 'viewport_jtr',
+        route: 'quick-link',
+        fields: null,
+        params: null
+    });
+    api.emit('MACROPONENT_VIEWPORT_LOAD_REQUESTED', {
+        viewportElementId: 'viewport_epf',
+        route: 'recently-viewed',
+        fields: null,
+        params: null
+    });
+    api.emit('MACROPONENT_VIEWPORT_LOAD_REQUESTED', {
+        viewportElementId: 'viewport_nmz',
+        route: 'sow-tier2/3-landing-page-header',
+        fields: null,
+        params: null
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 16:41:02</sys_created_on>
+        <sys_id>bb9daf2a1bf2e990efd1a71ee54bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Load Viewport Routes</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_client_script_bb9daf2a1bf2e990efd1a71ee54bcbc5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 16:41:02</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

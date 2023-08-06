@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Contract Management">ebeb06b42fe07190e1412ec027d7b3e7</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-06 22:54:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a3eb06b452e0719020caa63db1e877f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_page_property_a3eb06b452e0719020caa63db1e877f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 22:54:45</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_topic_1.ebeb06b42fe07190e1412ec027d7b3e7.root.globalSearchDataConfigId</unique_name>
+        <value>afeb06b4bce071902ffd3cdc226707f5</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3eb06b452e0719020caa63db1e877f1"/>
+</record_update>

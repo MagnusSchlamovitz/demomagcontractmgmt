@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Search</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-06 22:54:45</sys_created_on>
+        <sys_id>27eb06b4a2e07190f9d370cba00badf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_screen_type_27eb06b4a2e07190f9d370cba00badf6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 22:54:45</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=27eb06b4a2e07190f9d370cba00badf6"/>
+</record_update>

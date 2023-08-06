@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>3eccb12bb7703010e69dbc16de11a9a1,6ce083ce530301103eacddeeff7b1208</includes>
+        <macroponent display_value="SOW Overview Tier2">abbde76a1bf2e990efd1a71ee54bcbe5</macroponent>
+        <name>UpdateEvamCardStateVariablesTier2</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+async function handler({api, event, helpers, imports}) {
+    var serviceDeskUtils = imports['sn_sow_itsm_common.SOWLandingPageTier2Utils']();
+    var sowUtils = imports['sn_sow.SowUtils']();
+    var nameValueMap = sowUtils.getNameValueMap(event.payload.params.query);
+    var currentVizSelection = {};
+    var previousVizSelection = {};
+    var value = event.context.item.value;
+    var payload = event.payload;
+
+    currentVizSelection.table = value.datasource[0].tableOrViewName;
+    currentVizSelection.query = payload.params.query + value.updated_on;
+    currentVizSelection.evamId = value.evamId;
+    currentVizSelection.elementId = value.id;
+    currentVizSelection.recordCount = payload.data.value;
+    currentVizSelection.title = await serviceDeskUtils.fetchTitle(currentVizSelection.table, nameValueMap, api.state.groupMode);
+
+    previousVizSelection = {...currentVizSelection};
+    previousVizSelection.groupBy = payload.data.groupBy[0];
+    currentVizSelection.title = api.state.translations[currentVizSelection.title];
+
+    api.setState('pageCursor', () => 'init');
+    api.setState('pageNumber', () => 0);
+    api.setState('currentVizSelection', currentVizSelection);
+    api.setState('previousVizSelection', previousVizSelection);
+    api.setState('listRefreshRequested', {
+        timestamp: new Date().getTime()
+    });
+    if (api.state.groupMode)
+        api.setState('listView', 'sow_landing_page');
+    else
+        api.setState('listView', 'sow_landing_page_assigned');
+    api.data.get_datetime_now.refresh();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 16:41:54</sys_created_on>
+        <sys_id>14ddeb6a1bf2e990efd1a71ee54bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UpdateEvamCardStateVariablesTier2</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_client_script_14ddeb6a1bf2e990efd1a71ee54bcbcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 16:41:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>6ce083ce530301103eacddeeff7b1208</includes>
+        <macroponent display_value="SOW Overview Tier2">abbde76a1bf2e990efd1a71ee54bcbe5</macroponent>
+        <name>SetInitialConfigTier2</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : "",
+  "message" : "Incidents assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Incident tasks assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "In Progress incidents assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Change tasks assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Problems assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Catalog tasks assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Resolved incidents assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Fix in Progress problems assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "New problems assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Changes assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Resolved problems assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "On Hold incidents assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Implement changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Authorize changes assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Problem tasks assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Tasks assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Catalog tasks assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Resolved incidents assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Resolved problems assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "New problems assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Incident tasks assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "In Review changes assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Implement changes assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Problems assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Assess changes assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "On Hold incidents assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Assess changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Scheduled changes assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Root Cause Analysis problems assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "New incidents assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Incidents assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "In Review changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Authorize changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "New changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Assess problems assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Problem tasks assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Root Cause Analysis problems assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Change tasks assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "In Progress incidents assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Scheduled changes assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Assess problems assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Tasks assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "New incidents assigned to me",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "Fix in Progress problems assigned to my team",
+  "comment" : ""
+}, {
+  "code" : "",
+  "message" : "New changes assigned to my team",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+async function handler({api, event, helpers, imports}) {
+    const landingPageUtils = imports['sn_sow_itsm_common.SOWLandingPageTier2Utils']();
+    const donutConfig = await landingPageUtils.getDonutConfig(helpers, 'your_work');
+    const workPersonaConfig = await landingPageUtils.getWorkPersonaConfig(helpers);
+    
+    let translations = api.state.translations || {};
+    if(Object.keys(translations).length == 0) {
+        translations = {
+            "Incidents assigned to me": await helpers.translate("Incidents assigned to me"),
+            "Incidents assigned to my team": await helpers.translate("Incidents assigned to my team"),
+            "Problems assigned to me": await helpers.translate("Problems assigned to me"),
+            "Problems assigned to my team": await helpers.translate("Problems assigned to my team"),
+            "Changes assigned to me": await helpers.translate("Changes assigned to me"),
+            "Changes assigned to my team": await helpers.translate("Changes assigned to my team"),
+            "Tasks assigned to me": await helpers.translate("Tasks assigned to me"),
+            "Tasks assigned to my team": await helpers.translate("Tasks assigned to my team"),
+            "New incidents assigned to me": await helpers.translate("New incidents assigned to me"),
+            "In Progress incidents assigned to me": await helpers.translate("In Progress incidents assigned to me"),
+            "On Hold incidents assigned to me": await helpers.translate("On Hold incidents assigned to me"),
+            "Resolved incidents assigned to me": await helpers.translate("Resolved incidents assigned to me"),
+            "New incidents assigned to my team": await helpers.translate("New incidents assigned to my team"),
+            "In Progress incidents assigned to my team": await helpers.translate("In Progress incidents assigned to my team"),
+            "On Hold incidents assigned to my team": await helpers.translate("On Hold incidents assigned to my team"),
+            "Resolved incidents assigned to my team": await helpers.translate("Resolved incidents assigned to my team"),
+            "In Review changes assigned to me": await helpers.translate("In Review changes assigned to me"),
+            "Scheduled changes assigned to me": await helpers.translate("Scheduled changes assigned to me"),
+            "Authorize changes assigned to me": await helpers.translate("Authorize changes assigned to me"),
+            "Assess changes assigned to me": await helpers.translate("Assess changes assigned to me"),
+            "New changes assigned to me": await helpers.translate("New changes assigned to me"),
+            "Implement changes assigned to me": await helpers.translate("Implement changes assigned to me"),
+            "In Review changes assigned to my team": await helpers.translate("In Review changes assigned to my team"),
+            "Scheduled changes assigned to my team": await helpers.translate("Scheduled changes assigned to my team"),
+            "Authorize changes assigned to my team": await helpers.translate("Authorize changes assigned to my team"),
+            "Assess changes assigned to my team": await helpers.translate("Assess changes assigned to my team"),
+            "New changes assigned to my team": await helpers.translate("New changes assigned to my team"),
+            "Implement changes assigned to my team": await helpers.translate("Implement changes assigned to my team"),
+            "New problems assigned to my team": await helpers.translate("New problems assigned to my team"),
+            "Assess problems assigned to my team": await helpers.translate("Assess problems assigned to my team"),
+            "Resolved problems assigned to my team": await helpers.translate("Resolved problems assigned to my team"),
+            "New problems assigned to me": await helpers.translate("New problems assigned to me"),
+            "Assess problems assigned to me": await helpers.translate("Assess problems assigned to me"),
+            "Resolved problems assigned to me": await helpers.translate("Resolved problems assigned to me"),
+            "Fix in Progress problems assigned to me": await helpers.translate("Fix in Progress problems assigned to me"), 
+            "Root Cause Analysis problems assigned to me": await helpers.translate("Root Cause Analysis problems assigned to me"), 
+            "Fix in Progress problems assigned to my team": await helpers.translate("Fix in Progress problems assigned to my team"), 
+            "Root Cause Analysis problems assigned to my team": await helpers.translate("Root Cause Analysis problems assigned to my team"), 
+            "Catalog tasks assigned to me": await helpers.translate("Catalog tasks assigned to me"),
+            "Catalog tasks assigned to my team": await helpers.translate("Catalog tasks assigned to my team"),
+            "Change tasks assigned to me": await helpers.translate("Change tasks assigned to me"),
+            "Change tasks assigned to my team": await helpers.translate("Change tasks assigned to my team"),
+            "Problem tasks assigned to me": await helpers.translate("Problem tasks assigned to me"),
+            "Problem tasks assigned to my team": await helpers.translate("Problem tasks assigned to my team"),
+            "Incident tasks assigned to me": await helpers.translate("Incident tasks assigned to me"),
+            "Incident tasks assigned to my team": await helpers.translate("Incident tasks assigned to my team")
+        };
+        api.setState("translations", translations);
+    }
+
+    api.setState("donutConfig", donutConfig);
+    api.setState("workPersonaConfig", workPersonaConfig);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 16:41:40</sys_created_on>
+        <sys_id>c5cd2b6a1bf2e990efd1a71ee54bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SetInitialConfigTier2</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_client_script_c5cd2b6a1bf2e990efd1a71ee54bcbf1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 16:41:40</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

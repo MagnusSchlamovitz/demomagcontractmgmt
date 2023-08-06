@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Service Operations Workspace">4d69d0ed73c4301045216238edf6a7ea</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId,title</fields>
+        <icon/>
+        <name>SOW Form Modal Tier 2</name>
+        <optional_parameters>fields,requiredFields,modalPath,saveLabel,cancelLabel,isGFormSave,setFieldOnSave,field1,value1,displayValue1,field2,value2,displayValue2,field3,value3,displayValue3</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="SOW Overview Tier2">abbde76a1bf2e990efd1a71ee54bcbe5</parent_macroponent>
+        <parent_macroponent_composition_element_id>modal_viewport</parent_macroponent_composition_element_id>
+        <route_type>sowformmodal</route_type>
+        <screen_type display_value="SOW Form Modal Tier 2">6cdd2f6a1bf2e990efd1a71ee54bcb2e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-17 16:42:02</sys_created_on>
+        <sys_id>5eddaf6a1bf2e990efd1a71ee54bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SOW Form Modal Tier 2</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_app_route_5eddaf6a1bf2e990efd1a71ee54bcb08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-17 16:42:02</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=5eddaf6a1bf2e990efd1a71ee54bcb08"/>
+</record_update>

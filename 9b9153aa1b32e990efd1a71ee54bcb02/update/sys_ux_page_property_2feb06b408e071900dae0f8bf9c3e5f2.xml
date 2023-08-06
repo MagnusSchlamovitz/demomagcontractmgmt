@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Contract Management">ebeb06b42fe07190e1412ec027d7b3e7</page>
+        <required_translations>[ {
+  "message" : "New Contract",
+  "comment" : ""
+}, {
+  "message" : "New Contract tasks",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-06 22:54:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>2feb06b408e071900dae0f8bf9c3e5f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+        <sys_update_name>sys_ux_page_property_2feb06b408e071900dae0f8bf9c3e5f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-06 22:55:13</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_topic_1.ebeb06b42fe07190e1412ec027d7b3e7.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Contract tasks"},"routeInfo":{"route":"record","fields":{"table":"u_contract_tasks","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"u_contract_tasks","canCreate":true}}},{"label":{"translatable":true,"message":"New Contract"},"routeInfo":{"route":"record","fields":{"table":"ast_contract","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"ast_contract","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=2feb06b408e071900dae0f8bf9c3e5f2"/>
+</record_update>

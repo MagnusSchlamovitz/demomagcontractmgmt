@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contract Hierarchy" section_id="230cc2f41be0719093235205604bcba3" sys_domain="global" table="ast_contract" version="3" view="Workspace-Contract-Management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ui_contract_hierarchy_formatter.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>af0cc2f41be0719093235205604bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contract Hierarchy">4ba3aba71bd8395093235205604bcb91</sys_ui_formatter>
+            <sys_ui_section caption="Contract Hierarchy" display_value="Contract Hierarchy" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">230cc2f41be0719093235205604bcba3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contract Hierarchy</caption>
+            <header>false</header>
+            <name>ast_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>230cc2f41be0719093235205604bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ast_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+            <sys_update_name>sys_ui_section_230cc2f41be0719093235205604bcba3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Contract Management 0" name="Workspace-Contract-Management-0">e3eb06b498e07190d8a263de840b16ed</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

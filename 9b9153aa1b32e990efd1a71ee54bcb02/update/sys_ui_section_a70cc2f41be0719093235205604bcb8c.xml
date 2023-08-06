@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a70cc2f41be0719093235205604bcb8c" sys_domain="global" table="ast_contract" version="3" view="Workspace-Contract-Management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor.u_cvr</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_contract</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_contract</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_parent</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>starts</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ends</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commitment</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discount</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>license_type</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_award_method</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_procurement_method</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_non_contractual_slas</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>substate</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_types</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>230cc2f41be0719093235205604bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_model</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>270cc2f41be0719093235205604bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract_administrator</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2b0cc2f41be0719093235205604bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approver</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>2f0cc2f41be0719093235205604bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_owner</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>e70cc2f41be0719093235205604bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tender_id</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>eb0cc2f41be0719093235205604bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_oracle_agreement_number</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>ef0cc2f41be0719093235205604bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_eutm_number</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>e30cc2f41be0719093235205604bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_termination_notice</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>e70cc2f41be0719093235205604bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_has_employment_clause</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>eb0cc2f41be0719093235205604bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_has_social_clause</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>ef0cc2f41be0719093235205604bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_has_dpa</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_id>e30cc2f41be0719093235205604bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_contract" sys_domain="global" view="e3eb06b498e07190d8a263de840b16ed">a70cc2f41be0719093235205604bcb8c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>ast_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-06 22:55:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a70cc2f41be0719093235205604bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ast_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ContractManagementWorkspace" source="x_snc_topic_1">9b9153aa1b32e990efd1a71ee54bcb02</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ContractManagementWorkspace">9b9153aa1b32e990efd1a71ee54bcb02</sys_scope>
+            <sys_update_name>sys_ui_section_a70cc2f41be0719093235205604bcb8c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-06 22:55:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Contract Management 0" name="Workspace-Contract-Management-0">e3eb06b498e07190d8a263de840b16ed</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
